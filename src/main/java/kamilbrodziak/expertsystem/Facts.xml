@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Facts>
+    <Fact id="tesla">
+        <Description value="Tesla Model S"/>
+        <Evals>
+            <Eval id="family">true</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="comfort">false</Eval>
+            <Eval id="luxury">true</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="mokka">
+        <Description value="Opel Mokka"/>
+        <Evals>
+            <Eval id="family">true</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="comfort">false</Eval>
+            <Eval id="luxury">true</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="lada">
+        <Description value="Lada"/>
+        <Evals>
+            <Eval id="family">false</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="comfort">false</Eval>
+            <Eval id="luxury">false</Eval>
+        </Evals>
+    </Fact>
+</Facts>
