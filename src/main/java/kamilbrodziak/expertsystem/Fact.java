@@ -1,13 +1,14 @@
 package kamilbrodziak.expertsystem;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
 public class Fact {
     private String id;
     private String description;
-    Map<String, Boolean> factValues = new HashMap<String,Boolean>();
+    private Map<String, Boolean> factValues = new LinkedHashMap<String,Boolean>();
 
     public Fact(String id, String description) {
         this.id = id;

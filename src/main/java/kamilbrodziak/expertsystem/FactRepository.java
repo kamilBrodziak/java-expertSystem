@@ -1,11 +1,11 @@
 package kamilbrodziak.expertsystem;
 
-import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class FactRepository {
-    private Map<String, Fact> facts = new HashMap<String,Fact>();
+    private Map<String, Fact> facts = new LinkedHashMap<String,Fact>();
 
     public void addFact(Fact fact) {
         facts.put(fact.getDescription(), fact);
@@ -23,7 +23,7 @@ public class FactRepository {
         }
     
         public E next() {
-            return (E) facts.get(currPos++);
+            return (E) facts.values().toArray()[currPos++];
         }
     }
 }

@@ -6,8 +6,6 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
 
-import kamilbrodziak.expertsystem.RuleRepository.QuestionIterator;
-
 public class ESProvider {
     private FactParser factParser;
     private RuleParser ruleParser;
@@ -19,7 +17,6 @@ public class ESProvider {
 
         factParser.loadXmlDocument("Facts.xml");
         ruleParser.loadXmlDocument("Rules.xml");
-        System.out.println(ruleParser.getRuleRepository().getIterator().next().getId());
     }
 
     public void collectAnswers() {

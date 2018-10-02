@@ -2,10 +2,11 @@ package kamilbrodziak.expertsystem;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class RuleRepository {
-    private Map<String, Question> questions = new HashMap<String,Question>();
+    private Map<String, Question> questions = new LinkedHashMap<String,Question>();
 
     public void addQuestion(Question question) {
         questions.put(question.getId(), question);
@@ -23,7 +24,7 @@ public class RuleRepository {
         }
     
         public E next() {
-            return (E) questions.get(currPos++);
+            return (E) questions.values().toArray()[currPos++];
         }
     }
 }

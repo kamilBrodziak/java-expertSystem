@@ -11,7 +11,6 @@
             </Selection>
         </Answer>
     </Rule>
-    ...
     <Rule id="money">
         <Question>Do you have 20.000.000 HUF for a car?</Question>
         <Answer>
@@ -23,7 +22,6 @@
             </Selection>
         </Answer>
     </Rule>
-    ...
     <Rule id="comfort">
         <Question>What is more important for you?</Question>
         <Answer>
@@ -35,7 +33,6 @@
             </Selection>
         </Answer>
     </Rule>
-    ...
     <Rule id="luxury">
         <Question>What feature is must-have for you?</Question>
         <Answer>

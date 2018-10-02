@@ -9,7 +9,6 @@
             <Eval id="luxury">true</Eval>
         </Evals>
     </Fact>
-    ...
     <Fact id="mokka">
         <Description value="Opel Mokka"/>
         <Evals>
@@ -19,7 +18,6 @@
             <Eval id="luxury">true</Eval>
         </Evals>
     </Fact>
-    ...
     <Fact id="lada">
         <Description value="Lada"/>
         <Evals>
